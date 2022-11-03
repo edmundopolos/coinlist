@@ -12,10 +12,18 @@ declare global {
     interface RootParamList extends RootStackParamList {}
   }
 }
+export type BaseStackParamList = {
 
+  Base: undefined;
+  Auth: undefined;
+  Login: undefined;
+};
 export type RootStackParamList = {
   Root: NavigatorScreenParams<RootTabParamList> | undefined;
   Modal: undefined;
+  Base: undefined;
+  Auth: undefined;
+  Login: undefined;
   NotFound: undefined;
 };
 
