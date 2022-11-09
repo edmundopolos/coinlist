@@ -12,6 +12,17 @@ clone the app from github
 In the root directory run the command
 `npm install`
 
+## Start App locally
+
+In the root directory run the command
+`expo start`
+
+## Login credentials
+
+On the login page
+`email: Test@test.com`
+`password: Test@123`
+
 ## Build and Test
 
 `eas build -p ios -e test`
